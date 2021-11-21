@@ -7,6 +7,24 @@
   justify-content: center;
 }
 
+.index-bg {
+  background-color: #a4f7e4;
+}
+
+.topnav a.iconInd {
+  color: black;
+  background: #a4f7e4;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.front-img {
+  padding-top: 15px;
+  margin: auto;
+}
+
 .mobile-container {
   max-width: 480px;
   margin: auto;
@@ -16,9 +34,14 @@
   border-radius: 10px;
 }
 
+.body-class {
+  padding-top: 15px;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  padding-top: 15px;
+  font-family: Roboto;
   /*position: relative;*/
 }
 .topnav-flyer {
@@ -40,7 +63,7 @@
 }
 
 .topnav a {
-  color: white;
+  /*color: white;*/
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -56,10 +79,12 @@
   top: 0;
 }
 
+/*
 .topnav a:hover {
   background-color: #ddd;
   color: black;
-}
+}*/
+
 .topnav-flyer a {
   color: white;
   padding: 14px 16px;

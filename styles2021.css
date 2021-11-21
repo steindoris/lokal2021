@@ -1,0 +1,181 @@
+@media (min-width: 800px) {
+  .content-all {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .content-item {
+    margin-left: 25vh;
+    margin-right: 25vh;
+  }
+
+  .active21 {
+    background-color: pink;
+    color: black;
+  }
+
+  .topnav a.icon21 {
+    color: black;
+    background: pink;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: Roboto;
+  }
+  .content-item p {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: Roboto;
+    font-size: 20px;
+  }
+
+  a {
+    font-family: Roboto;
+    font-size: 20px;
+  }
+  h1 {
+    font-family: Roboto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+  }
+
+  body {
+    background-color: pink;
+  }
+
+  .lokal-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 60%;
+  }
+
+  .lokal-imgages {
+    padding-top: 15px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .content-all {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 10px;
+  }
+
+  .activeSc {
+    background-color: pink;
+  }
+
+  .lokal-imgages {
+    padding-top: 15px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .lokal-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+  }
+
+  .content-item p {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: Roboto;
+    font-size: 20px;
+  }
+  .content-item {
+    margin-left: 7vh;
+    margin-right: 7vh;
+  }
+
+  .lokal-img {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 40%;
+  }
+
+  .active21 {
+    background-color: pink;
+    color: black;
+  }
+
+  .activeAb {
+    background-color: url('./images/aboutbackground.jpg');
+  }
+
+  .activeS14 {
+    background-color: url('./images/backgroundpink.jpg');
+  }
+
+  .activeFly {
+    background-color: url('./images/backgroundpink.jpg');
+  }
+
+  .activeCo {
+    background-color: url('./images/backgroundpink.jpg');
+  }
+
+  .topnav a.iconCo {
+    color: black;
+    background: url('./images/backgroundpink.jpg');
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a.iconFly {
+    color: black;
+    background: url('./images/backgroundpink.jpg');
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a.icon21 {
+    color: black;
+    background: pink;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a.iconAb {
+    color: black;
+    background: url('./images/aboutbackground.jpg');
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a.iconS14 {
+    color: black;
+    background: url('./images/backgroundpink.jpg');
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  body {
+    background-color: pink;
+  }
+}
